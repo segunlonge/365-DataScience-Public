@@ -9,10 +9,15 @@ Created on Mon Jul 21 12:44:11 2025
 class Student(object):
     '''A student class and object creator'''
     
-    # Class variable
+    # Class variable; applies to all instances of the student class object
     status = 'student'
 
-    def __init__(self,name,age,major,gpa,year):
+    '''The __init__ function (called a constructor)
+    creates variables for each instance (from the arguments
+    in the brackets) of the class object so that each instance 
+    of the object can have it's own variables
+     '''
+    def __init__(self,name,age,major,gpa,year): # instance variables
         self.name = name
         self.age = age
         self.major = major

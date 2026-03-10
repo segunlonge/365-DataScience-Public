@@ -28,7 +28,6 @@ Age: {self.age}
 Major: {self.major}
 GPA: {self.gpa}
 Year: {self.year}
-
 Total number of students in class: {self.total_students}''')
       
     def update_age(self):

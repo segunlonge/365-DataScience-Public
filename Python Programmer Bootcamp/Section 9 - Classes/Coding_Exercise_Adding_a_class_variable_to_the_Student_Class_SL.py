@@ -46,3 +46,5 @@ student3 = Student(
     year=1)
 # Output the total number of students
 print(f"Total number of students: {Student.total_students}")
+
+print(f"Student name: {student3.name}")
